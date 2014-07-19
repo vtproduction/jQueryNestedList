@@ -1,0 +1,107 @@
+body{
+	min-height: 2000px
+}
+.dropdownlist .value{
+	height: 200px;
+	overflow: auto;
+}
+.dropdownlist .dropdown{
+	display: block;
+	padding: 5px 20px;
+	text-align: left;
+	color: #ffffff;
+	background-color: #340fff;
+	cursor: pointer;
+}
+.dropdownlist .dropdownlistOption{
+	display: none;
+}
+.dropdownlist .active{
+	
+}
+.dropdownlist .inactive{
+	
+}
+.rtpDropdownValue{
+	width: 100%;
+	margin-top: 0px;
+	background-color: #223344;
+	position: absolute;
+	overflow: auto;
+}
+.rtpDropdownValue ul{
+	
+	background-repeat: repeat-y;
+	padding-left: 0px;
+}
+.rtpDropdownValue .li-first,.rtpDropdownValue .li-bwn,.rtpDropdownValue .li-last{
+	background-repeat: no-repeat !important;
+	background-position: left !important;
+}
+.rtpDropdownValue .li-first{
+	background-image: url(images/bwn.png);
+}
+.rtpDropdownValue .li-bwn{
+	background-image: url(images/bwn.png);	
+}
+.rtpDropdownValue .li-last{
+	background-image: url(images/bottom.png) !important;
+}
+.rtpDropdownValue li{
+	padding-left: 40px;
+	color: black;
+	list-style-type: none;
+	background-image: url(images/single.png);
+	background-position: left;
+	background-repeat: no-repeat;
+}
+.rtpDropdownValue .rtUnClickable{
+	display: none !important;
+}
+.rtpDropdownValue .rtPlus{
+	cursor: pointer;
+	margin-left: -2px;
+	width: 22px;
+	height: 22px;
+	background-image: url(images/btnUp.png);
+	background-position: 0 0;
+	float: left;
+}
+.rtpDropdownValue .rtMinus{
+	cursor: pointer;
+	margin-left: -2px;
+	width: 22px;
+	height: 22px;
+	background-image: url(images/btnDown.png);
+	background-position: 0 0;
+	float: left;
+}
+.rtpDropdownValue .rtTop{
+	margin-left: -40px;
+	width: 22px;
+	height: 22px;
+	background-image: url(images/bottom.png);
+	background-position: 0 0;
+	float: left;
+}
+.rtpDropdownValue .top-node{
+	background-image: url(images/node.png);
+	line-height: 25px;
+	background-repeat: repeat-y;
+}
+.rtpDropdownValue .top-node span{
+	display: block;
+}
+.rtpDropdownValue .topnodeLast{
+	background: none;
+}
+.rtpDropdownValue .value-selectable{
+	cursor: pointer;
+	color: #f4aa11;
+}
+.rtpDropdownValue .value-selectable:hover{
+	background-color: cyan;
+}
+#result{
+
+}
